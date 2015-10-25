@@ -1,3 +1,4 @@
 var content = {
-                    name: "uuurruruurur"
+                    name: "Шаблонизатор работает!"
               }
+$('#content').render(content);
