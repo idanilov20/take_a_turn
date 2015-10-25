@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Забронируй себе место во всех сферах обслуживания в одном месте!</title>
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="/css/modul-windows.css">
+</head>
+<body>
+<!-- header -->
+    <div id="header">
+        <div id="label">Название сайта</div>
+        <button onclick="modulWindows.loginWindow()" class="btn" id="login-btn">Войти</button>
+    </div>
+<!-- header -->
+
+<!-- modul-windows -->
+<div onclick="modulWindows.closeWindows()" class="back-graund-windows"></div>
+<div id="modul" class="modul-window animated"><div onclick="modulWindows.closeWindows()" id="exit-btn"></div></div>
+<!-- modul-windows -->
+
+    <!-- menu -->
+    <div id="menu">
+        <ul>
+            <a href="#"><li>Главная</li></a>
+            <a href="#"><li>Каталог</li></a>
+            <a href="#"><li>О нас  </li></a>
+            <a href="#"><li>Сотрудничество</li></a>
+        </ul>
+    </div> 
+    <!-- menu -->
+
+    <!-- content -->
+    <div id="content">
+        
+    </div>
+<!-- content -->
+
+<!-- footer -->
+    <div id="footer"></div>
+<!-- footer -->
+<!-- scripts -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="/scripts/modul-windows.js"></script>
+<script type="text/javascript" src="/scripts/methods.js"></script>
+<!-- scripts -->
+</body>
+</html>

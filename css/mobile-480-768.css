@@ -1,0 +1,86 @@
+@media screen and (min-width:100px) and (max-width:1024px) {
+body
+{
+    width: 100%;
+    /*margin: 0 10% 0 10%;*/
+    font-family: Arial;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+@font-face {
+    font-family: Kontur; 
+    src: url(/fonts/Kontur.ttf); 
+    src: local(Kontur), url(/fonts/Kontur.ttf);
+   }
+/*HEADER*/
+#header
+{
+    width: 100%;
+    min-width: 450px;
+    height: 150px;
+    position: absolute;
+    display: block;
+    z-index: 2;
+
+    background-color: #2196F3;
+    box-shadow: 0px 1px 6px #616161;
+}
+#label
+{
+    width: 20%;
+    top: 25%;
+    left: 4%;
+    position: absolute;
+
+    font-weight: 100;
+    font-size: 34px;
+    color: white;
+}
+/*HEADER*/
+
+/*CONTENT*/
+#content
+{
+    width: 80%;
+    height: 1000px;
+    margin: 260px 10% 0 10%;
+    position: absolute;
+    display: block;
+    z-index: 1;
+}
+#menu
+{
+    width: 100%;
+    min-width: 450px;
+    min-height: 80px;
+    margin: 150px 0 0 0;
+    position: absolute;
+    display: block;
+    z-index: 1;
+
+    text-align: center;
+    background-color: #009688;
+}
+#menu > ul
+{
+    margin: 3% 0 3% 0;
+}
+#menu > ul > a
+{
+    margin-left: 20px;
+
+    display: inline-block;
+    text-decoration: none;
+}
+#menu > ul > a > li
+{
+    width: 100%;
+    
+    font-size: 20px;
+    color: #ffffff;
+}
+/*CONTENT*/
+}
